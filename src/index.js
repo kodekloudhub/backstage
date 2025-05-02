@@ -3,7 +3,7 @@ import express from "express";
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("this is application x");
+  res.send("This is application x deployed using Backstage");
 });
 
 const port = process.env.PORT ?? 4000;
