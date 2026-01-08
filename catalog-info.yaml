@@ -3,7 +3,11 @@ kind: Component
 metadata:
   name: "my-demo-app"
   annotations:
-    github.com/project-slug: <your-github-username-here>/my-demo-app
+    # This MUST match your repository's slug on GitHub
+    # (e.g., abc/backstage)
+    github.com/project-slug: helalse2k/backstage
+    # This MUST match your GitHub username
+    github.com/user: 'helalcse2k'
 spec:
   type: service
   owner: user:default/guest
