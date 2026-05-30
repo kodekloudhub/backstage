@@ -4,7 +4,7 @@ metadata:
   name: "my-demo-app"
   annotations:
     github.com/user: TheBrickAdmin
-    github.com/project-slug: TheBrickAdmin/my-demo-app
+    github.com/project-slug: TheBrickAdmin/backstage
 spec:
   type: service
   owner: user:default/guest
