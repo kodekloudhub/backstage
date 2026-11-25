@@ -2,8 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "my-demo-app"
-  annotations:
-    github.com/project-slug: <your-github-username-here>/my-demo-app
+    annotations:
+    # This MUST match your repository's slug on GitHub
+    # (e.g., abc/backstage)
+      github.com/project-slug: luca-trifilio/backstage
+    # This MUST match your GitHub username
+      github.com/user: 'luca-trifilio'
 spec:
   type: service
   owner: user:default/guest
